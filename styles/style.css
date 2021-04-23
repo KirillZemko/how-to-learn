@@ -1,3 +1,6 @@
+div {
+  border: 1px solid red;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -301,18 +304,18 @@
 }
 
 .footer__column_content_info {
-  /* flex-basis: 355.5px; */
   align-items: flex-end;
 }
 
 .footer__column_content_social {
-  /* flex-basis: 355.5px; */
 }
 
 .footer__column_heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .footer_column_links {
@@ -324,4 +327,13 @@
 .footer__column_link {
   text-decoration: none;
   color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }

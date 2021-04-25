@@ -64,8 +64,7 @@
   color: #2f80ed;
 }
 
-/* модификатор hover-underline только для блока header: блок header элемент link модификатор hoverhover-underline */
-.header__link_hover-underline:hover {
+.header__link:hover {
   text-decoration: underline;
 }
 
@@ -226,8 +225,7 @@
   color: #2f80ed;
 }
 
-/* модификатор hover-underline только для блока feynman: блок feynman элемент link модификатор hoverhover-underline */
-.feynman__link_hover-underline:hover {
+.feynman__link:hover {
   text-decoration: underline;
 }
 
@@ -349,8 +347,7 @@
   font-weight: normal;
 }
 
-/* модификатор hover-underline только для блока footer: блок footer элемент link модификатор hover-underline */
-.footer__link_hover-underline:hover {
+.footer__column-link:hover {
   text-decoration: underline;
 }
 
